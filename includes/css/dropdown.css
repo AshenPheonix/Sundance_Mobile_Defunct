@@ -1,0 +1,25 @@
+/* CSS Document */
+.links{
+font-family:Montserrat, Arial, Helvetica, sans-serif;
+font-size:13px;
+color:#FF3300;
+font-weight:bold;
+}
+.links:hover{
+font-family:Montserrat, Arial, Helvetica, sans-serif;
+font-size:13px;
+color:#000000;
+font-weight:bold;
+}
+.links_one{
+font-family:Montserrat, Arial, Helvetica, sans-serif;
+font-size:13px;
+color:#793300;
+font-weight:bold;
+}
+.links_one:hover{
+font-family:Montserrat, Arial, Helvetica, sans-serif;
+font-size:13px;
+color:#000000;
+font-weight:bold;
+}

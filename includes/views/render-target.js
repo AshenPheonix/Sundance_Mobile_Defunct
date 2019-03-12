@@ -1,0 +1,2 @@
+riot.tag2('render-target', '<router> <route path="/"><pager></pager></route> <route path="/color/*"><pager></pager></route> <route path="/color/single/*"><pager></pager></route> <route path="/company/*"><pager></pager></route> </router>', '', '', function(opts) {
+});

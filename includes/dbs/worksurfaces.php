@@ -1,0 +1,23 @@
+<?php
+require_once CLASSROOT.'WorksurfaceClass.php';
+
+$worksurfaces=[
+    new Worksurface('1645', 'with bottle holder', 'Propane/Mapp bottle holder and 9 Inch by 14 Inch work surface, holds both types of bottle', '1620.jpg', '24', '2479a524976d469585fa5cd636ef7e65', 1),
+    new Worksurface('1650', 'with bottle holder', 'Propane/Mapp bottle holder and 14 Inch by 18 Inch work surface, holds both style of bottle', 'worksurface-glass-beadmaking-1650sm.jpg', '39', '4372d8f491dc43e6bd2dc59d4ee10810', 1),
+  
+    new Worksurface('1617', 'metal', 'Stainless Steel Work Surface - 12 Inch x 13 Inch flat area, heavy .030" thick metal. One edge is bent so you can wrap it over the edge of your work bench. The far edge is also bent up right so you have a nice 9 Inch long rest for your colored glass rods.', 'work-surface-1617vsm-torch-lampworking-glassblowing.jpg', '16', 'd6ff66d192194b7fa35741cf969ed53a', 1),
+    new Worksurface('1644', 'metal', 'Stainless Steel Work Surface - 13 Inch x 18 Inch flat area, heavy thick metal. Actually a bit smaller so we can fit it in a standard box. Front edge is bent so it fits nicely over the edge of your work table. The far edge is also bent up right so you have a nice 18 Inch long rest for your colored glass rods. May need to be sent in it\'s own box.', '1642-sm-work-surface.jpg', '24', 'e3302d132bb24e319626d45cd4b89c75', 1),
+    new Worksurface('1636', 'metal', 'Stainless Steel Work Surface - 17 Inch x 18 Inch flat area, heavy thick metal. Actually a bit smaller so we can fit it in a standard box. Front edge is bent so it fits nicely over the edge of your work table. The far edge is also bent up right so you have a nice 18 Inch long rest for your colored glass rods. May need to be sent in it\'s own box.', 'work-surface-1636med-torch-lampworking-glassblowing.jpg', '29', 'f6e11f0e0cd244cfc5a4926b095d9ed3', 1),
+    new Worksurface('1638', 'metal', 'Stainless Steel Work Surface - 16 Inch x 24 Inch Flat Area, heavy thick metal. Actually a bit smaller so we can fit it in a standard box. Front edge is bent so it fits nicely over the edge of your work table. The far edge is also bent up right so you have a nice 24 Inch long rest for your colored glass rods. May need to be sent in it\'s own box.', 'work-surface-1638med-lampworking-glassblowing-glass-bead.jpg', '38', 'c37acb3d485504740ad49dd62c41d85b', 1),
+    new Worksurface('1659', 'metal', 'Stainless Steel work surface - 16 Inch x 30 Inch flat area, heavy thick metal. Front edge is bent so it fits nicely over the edge of your work table. The far edge is also bent up right so you have a nice 30 Inch long rest for your colored glass rods. PLUS if this is shipped, it must go in it\'s own box', 'work-surface-1659med-lampworking-glassblowing-glass-bead.jpg', '49', '6ed888114cce4592bcfe0541e8a1b1d6', 1),
+
+    new Worksurface('RRT8', 'rod rest', '8 Inch Rod rest - fits inside 9 Inch kilns or on your workbench', 'rod-tool-rest-rrt8-1med.jpg', [[1,'6.00'],[2,'5.40'],[4,'4.80'],[8,'4.20']], '46937282494244f3aeef3757b62c6225', 1),
+    new Worksurface('RRT12', 'rod rest', '12 Inch Rod Rest - Fits inside 13 Inch Kiln, or on your workbench', 'rod-tool-rest-rrt12-1med.jpg', [[1,'9.00'],[2,'8.10'],[4,'7.20'],[8,'6.30']], 'e14511f7225743a28824c7b8b82d9522', 1),
+    new Worksurface('RRT17', 'rod rest', '17 Inch Rod Rest - Fits inside 18 Inch Kilns or on your workbench', 'rod-tool-rest-rrt17-1med.jpg', [[1,'11.00'],[2,'9.90'],[4,'8.80'],[8,'7.70']], '54478830d88d4767895ee20c34c431e5', 1),
+    new Worksurface('RRT8T', 'rod rest', '8 Inch Rod Rest - Extra Tall for easy grabbing', 'rod-tool-rest-rrt8t-1med.jpg', [[1,'9.00'],[2,'8.10'],[4,'7.20'],[8,'6.30']], '54478830d88d4767895ee20c34c431e5', 1),
+    new Worksurface('RRT12T', 'rod rest', '12 Inch Rod Rests - Extra Tall for easy grabbing', 'rod-tool-rest-rrt12t-1med.jpg', [[1,'12.00'],[2,'10.80'],[4,'9.60'],[8,'8.40']], '54f822b760d146408acdcd0f333d7fbd', 1),
+    new Worksurface('RRT17T', 'rod rest', '17 Inch Rod Rests - Extra Tall for easy grabbing', 'rod-tool-rest-rrt17t-1med.jpg', [[1,'14.00'],[2,'12.60'],[4,'11.20'],[8,'9.80']], 'c7898012b0614bae8b32eade938ff19d', 1),
+    new Worksurface('RRT+', 'type', 'desc', 'img', 'price', 'pid', 1),
+
+    new Worksurface('RT1207', 'tool caddy', 'Organize your bench top with this handy tool caddy. Easily put away for quick clean up. Also can be used in a kiln for a bead rest. Stainless Steel. A 7 Inch by 12 Inch foot print', 'tool-rod-caddy-1med.jpg', '28.00', 'c2fb677115cd48ff91398c426c5f817d', 1),
+];

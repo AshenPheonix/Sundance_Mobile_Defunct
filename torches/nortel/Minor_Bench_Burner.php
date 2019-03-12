@@ -1,0 +1,1 @@
+<?php include_once 'Mega_Minor_Bench_Burner.php'; ?>

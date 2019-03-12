@@ -1,0 +1,50 @@
+.beige, .chromestyle ul, .bg-chrome{
+    background: #fa7203 !important;
+    border-color:brown;
+    color:white !important;
+}
+.chromestyle ul li a:hover, .chromestyle ul li a.selected, #chromemenu{
+    background-color: #c9620e !important; 
+}
+.chromestyle ul li a{
+    color:black;
+    border-right:none !important;
+}
+
+.beige .red, .glossymenu .red, #verticalmenu.glossymenu li ul li:first-child a, .bg-chrome .red{
+    color:yellow !important;
+}
+.beige a, .bg-chrome a{
+    color:#175517 !important;
+}
+
+.greyContainer{
+    border: 1px solid brown !important;
+    background-color:#bb5807 !important;
+}
+.greyContainer .red{
+    color:yellow;
+}
+.greyContainer a,td.white a, td a{
+    color:#175517 !important;
+}
+.containerHeader{
+    background: #fa7203 !important;
+}
+.yellow{
+    background:#fa7203 !important;
+    color:black;
+}
+
+.whiteSpacer{
+    background-color:brown !important;
+}
+.whiteSpacerLong{
+    background-color:brown;
+}
+#fallHead{
+    background:white url('/mobile/images/FallTop.png') no-repeat center center;
+    background-size:100%;
+    height:44px;
+    padding:0;
+}

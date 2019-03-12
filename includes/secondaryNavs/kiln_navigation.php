@@ -1,0 +1,1 @@
+Currently, only Glassblowing Kilns are available on the mobile site.

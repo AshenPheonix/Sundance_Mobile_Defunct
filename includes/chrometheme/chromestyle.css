@@ -1,0 +1,85 @@
+.chromestyle {
+    width: 98%;
+    font-size: 13px !important;
+    color: #494936;
+}
+
+.chromestyle:after {
+    /*Add margin between menu and rest of content in Firefox*/
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+.chromestyle ul {
+    border: 1px solid #e2e2ac;
+    width: 100%;
+    background: #ffffca;
+    /*THEME CHANGE HERE*/
+    padding: 6px;
+    margin: 0;
+    text-align: center;
+    /*set value to "left", "center", or "right"*/
+}
+
+.chromestyle ul li {
+    display: inline-block;
+}
+
+.chromestyle ul li a {
+    color: #000000;
+    padding: 4px 7px;
+    margin: 0;
+    text-decoration: none;
+    border-right: 1px solid #ffffca;
+}
+
+.chromestyle ul li a:hover,
+.chromestyle ul li a.selected {
+    /*script dynamically adds a class of "selected" to the current active menu item*/
+    background: #ffe699;
+    /*THEME CHANGE HERE*/
+}
+
+
+/* ######### Style for Drop Down Menu ######### */
+
+.dropmenudiv {
+    position: absolute;
+    top: 0;
+    border: 1px solid #d9d9d9;
+    /*THEME CHANGE HERE*/
+    border-bottom-width: 0;
+    font-size: 13px;
+    line-height: 20px;
+    z-index: 100;
+    background-color: white;
+    width: 200px;
+    visibility: hidden;
+}
+
+.dropmenudiv a {
+    width: auto;
+    display: block;
+    text-indent: 3px;
+    border-bottom: 1px solid #d9d9d9;
+    /*THEME CHANGE HERE*/
+    padding: 4px 0;
+    text-decoration: none !important;
+    font-weight: bold;
+    color: black;
+}
+
+* html .dropmenudiv a {
+    /*IE only hack*/
+    width: 100%;
+    text-decoration: none !important;
+}
+
+.dropmenudiv a:hover {
+    /*THEME CHANGE HERE*/
+    background-color: #ffe699;
+    text-decoration: none !important;
+}

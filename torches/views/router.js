@@ -1,0 +1,2 @@
+riot.tag2('mover', '<router> <route path="/"> <div class="container-fluid" data-is="selector"></div> </route> <route path="pre"> <div class="container-fluid" data-is="menu" opt="pre"></div> </route> <route path="surface"> <div class="container-fluid" data-is="menu" opt="surface"></div> </route> <route path="product/*/*"> <div class="container-fluid" data-is="torch-disp"></div> </route> <route path="*/*"> <div class="container-fluid" data-is="menu"></div> </route> </router>', '', '', function(opts) {
+});

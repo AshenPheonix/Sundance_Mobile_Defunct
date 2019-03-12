@@ -1,0 +1,25 @@
+<?php
+
+require_once CLASSROOT.'DVDClass.php';
+
+$dvds=[
+    new DVD('6015', 'soft', 'Essential Beadmaking}A comprehensive beginning glass lampworking DVD', 'Freeman Corbin, Jay Shuster, and Justin McBurnett', 'essential-beadmaking-dvd-video-cover-med.jpg', '49.95', '35.00', ['info'=>'essentialBeadmaking'], 'a991c4b36e0bd932c8aaaa632bece635', false, 1, '27.95'),
+    new DVD('VCMB', 'soft', 'Glass Beadmaking}The definite glass bead how-to video. Features instruction to beginning students and work by advanced glass beadmakers', 'Crystal Myths with Lewis C. Wilson', 'glass-beadmakingsm.PNG', '38.00', '38.00', ['info'=>'glassBeadmaking'], 'fd806484d91c4eb79b0448af5fb06190', false, 1),
+    new DVD('VCMP', 'soft', 'Paperweight Techniques}A 2 DVD Set designed as a guide for the care and use of an electric crucible furnace. Features demonstations of advanced techniques to be used with the kiln.', 'Crystal Myths, with Lewis C. Wilson', 'paperweight-techsm.PNG', 60.00, 60.00, ['info'=>'paperweight'], '29ebbfa6a4442abf9d338091f3808650', false, 1),
+    
+    new DVD('7333', 'hard', 'How To Blow Your Own Hand Pipes}A great video for beginners', 'Ed Hudson', 'pipe-making-video-sm.jpg', '40.00', '34.00', ['info'=>'blowYourOwn'], '63875fbad2194fde943c171dad1f8a60', false, 1),
+    new DVD('6010', 'hard', 'Essential Lampworking For Beginners}A great video for beginners looking to set up their studio', 'Freeman Corbin and Jenny Newtson', 'essential-lampworking-for-beginners-dvd-video-cover-med copy.jpg', '49.95', '27.95', null, '8fed641e191844cb945b794147949755', false, 1),
+    new DVD('6011', 'hard', 'Essential Lampworking}Part 1 of a 2 part comprehensive glass lampworking set', 'Freeman Corbin & Jenny Newtson', 'essential-lampworking-dvd-video-cover-med.jpg', '40', '35.00', ['info'=>'essentialLampworking'], '44055cce99bf984fb5d3bc08458611ad', false, -1, 27.95),
+    new DVD('6012', 'hard', 'Essential Lampworking 2}Part 2 of a 2 part comprehensive glass lampworking set', 'Chris Hale, Gregor Kevrekian, Amandus Jalof, Justin McBurnett and Freeman Corbin', 'essential-lampworking-intermediatesm.jpeg', '40.00', '35.00', ['info'=>'essentialLampworking'], '6be8c63f26505c0795ae2080c9f47fa0', false, -1, 27.95),
+    new DVD('6016', 'hard', 'Essential Boro Beadmaking}A DVD demonstrating beadmaking techniques with borosilicate glass', 'Freeman Corbin, Amandus Jalof, and Justing McBurnett', 'essential-boro-beadmaking-dvd-video-cover-med.jpg', 49.95, '35.00', ['info'=>'essentialBoro'], '6736bd4f56e1a967e8468e979d27265a', false, 1, 27.95),
+    new DVD('7350', 'hard', 'An Introduction to Using Borocolor&reg;}Part 1 of the Focus on Flamework series', 'Milon Townsend', 'video-mt-boro-sm.jpg', 35, 29.95, ['info'=>'introToBorocolor'], '3296ce639a4547bb9847a2d07281f09e', false, 1),
+    new DVD('7354', 'hard', 'Using Northstar Frit & Powder}Part 2 of the Focus on Flamework series', 'Milon Townsend', 'video-mt-frit-powder-sm.jpg', 35, 29.95, ['info'=>'usingNorthstar'], '3855d28b1d0c464590d68bb65ecd1819', false, 1),
+    new DVD('7352', 'hard', 'Flameworking with Dichroic Glass}Part 3 of the Focus on Flamework series', 'Milon Townsend', 'video-mt-dichroic-sm.jpg', 35, 29.95, ['info'=>'flameWithDichro'], '0e621f6370604dada094c61de37fc670', false, 1),
+    new DVD('7351', 'hard', 'Canework: Filigrana, Murrine, and External Color Patterns}Part 4 of the Focus on Flamework series', 'Milon Townsend', 'townsend-canework.jpg', 35, 29.95, ['info'=>'complexCane'], '01ffa4491a074480a4ec0d607df99ccc', false, 1),
+    new DVD('7355', 'hard', 'Surface Decoration}Part 5 of the Focus on Flamework series', 'Milon Townsend', 'video-mt-surface-decoration-sm.jpg', 35, 29.95, ['info'=>'surfaceDecoration'], 'fca118c95f25473eb24d39bfba9b9a8c', false, 1),
+    new DVD('VCML', 'hard', 'Lampworking}This two part DVD set covers various advanced bead making techniques.', 'Crystal Myths with Lewis C. Wilson', 'dvd-video-lampworking-lewis-wilson-2sm.jpg', null, 48, ['info'=>'lampworking2DVD'], 'd82ec61818cfe1912c77ff9a60e872b4', false, 1),
+
+    new DVD('6018', 'both', 'Essential Marbles}This DVD offers an in depth look at basic and advanced boro marble techniques. Ideal for the lampworker who wants to perfect and explore new marble making techniques!', 'Freeman Corbin, Chris Hale, and Wesley Chumley', 'essential-marbles-dvd-video-cover-med.jpg', 40, 35.00, ['info'=>'essentialMarbles'], '6736bd4f56e1a967e8468e979d27265a', false, -1),
+    new DVD('6022', 'both', 'Killer Beads: The Basics of Making Marbles}In this DVD Colman demonstrates the making of 8 advanced borosilicate glass marbles.', 'Gerry Colman', 'marble-glass-dvd-coleman-sm.jpg', '49', 40, ['info'=>'killerMarbles'], '635a8a99ed73fc19e00f1fa9c77c4189', false, 0, 34.95),
+    new DVD('7450', 'both', 'The Making of Murrini: Faces, Letters, Mosaics}This video shows how to use a minor bench burner and Moretti Glass Rods to create many', 'Crystal Myths with Lewis C. Wilson', 'murrini.JPG', null, 60, ['info'=>'murrini'], 'd4a781fadac24eb28446e789da90e0c0', false, 1),
+];
